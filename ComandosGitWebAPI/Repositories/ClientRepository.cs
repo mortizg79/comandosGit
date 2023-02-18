@@ -14,5 +14,10 @@ namespace ComandosGitWebAPI.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public Task<Client> GetAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
